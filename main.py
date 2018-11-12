@@ -32,7 +32,7 @@ containers = page_soup.findAll("div", {"class":"grid__item medium-down--one-half
 
 filename = "results.csv"
 f = open(filename, "w") # open file in "w" write mode
-headers = "item, price\n" # here
+headers = "item, price\n"
 f.write(headers)
 
 # loop over all containers
